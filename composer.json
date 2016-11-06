@@ -1,0 +1,23 @@
+{
+    "name": "kouks/laravel-filters",
+    "description": "Provides a convenient way to filter through your models.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "filters"],
+    "authors": [
+        {
+            "name": "Pavel Koch",
+            "email": "kouks.koch@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Koch\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/database": "^5.3",
+        "illuminate/http": "^5.3"
+    }
+}
