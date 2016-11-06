@@ -1,6 +1,6 @@
 <?php
 
-namespace Koch\Models\Behavior;
+namespace Koch\Filters\Behavior;
 
 use Koch\Filters\Filter;
 
