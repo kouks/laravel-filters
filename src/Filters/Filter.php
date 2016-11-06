@@ -6,8 +6,9 @@ use Illuminate\Http\Request;
 use Koch\Filters\Behavior\Orderable;
 use Koch\Filters\Behavior\Searchable;
 use Illuminate\Database\Eloquent\Builder;
+use Koch\Filters\Contracts\Filter as FilterContract;
 
-abstract class Filter
+abstract class Filter implements FilterContract
 {
     use Searchable, Orderable;
 
