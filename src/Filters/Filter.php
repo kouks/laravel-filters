@@ -128,7 +128,11 @@ abstract class Filter implements FilterContract
         $singular = str_singular($scope);
         $next = substr(strstr($column, '.'), 1);
 
-        $this->builder->join($scope, "{$last}.{$singular}_id", "{$scope}.id");
+        if (! in_array($scope, $this->loaded)) {
+            $this->loaded[] = $scope;
+
+            $this->builder->join($scope, "{$last}.{$singular}_id", "{$scope}.id");
+        }
 
         return $this->resolve($next, $key, $scope, $callback);
     }

@@ -4,7 +4,7 @@
     "type": "library",
     "license": "MIT",
     "keywords": ["laravel", "filters"],
-    "minimum-stability": "dev",
+    "minimum-stability": "0.0.1",
     "authors": [
         {
             "name": "Pavel Koch",
@@ -16,8 +16,8 @@
         "illuminate/http": "^5.3"
     },
     "require-dev": {
-        "mockery/mockery": "0.9.*",
-        "phpunit/phpunit": "~5.0"
+        "phpunit/phpunit": "~5.0",
+        "fzaninotto/Faker": "^1.6"
     },
     "autoload": {
         "psr-4": {
