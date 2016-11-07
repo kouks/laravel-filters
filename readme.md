@@ -1,5 +1,6 @@
 # Laravel Filters
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kouks/laravel-filters/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kouks/laravel-filters/?branch=master)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/kouks/laravel-filters.svg?style=flat-square)](https://packagist.org/packages/kouks/laravel-filters)
 [![Build Status](https://travis-ci.org/kouks/laravel-filters.svg?branch=master)](https://travis-ci.org/kouks/laravel-filters)
 [![StyleCI](https://styleci.io/repos/73021743/shield?branch=master)](https://styleci.io/repos/73021743)
